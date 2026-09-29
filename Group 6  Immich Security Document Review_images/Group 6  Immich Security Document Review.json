@@ -1,0 +1,157 @@
+[
+  {
+    "sid": "/group-6-team-based-project---immich-security-documentation-review",
+    "title": "Group 6 Team Based Project - Immich Security Documentation Review",
+    "level": 2,
+    "children": [
+      {
+        "sid": "/1-security-policy",
+        "title": "1. Security policy",
+        "level": 3,
+        "parent": "/group-6-team-based-project---immich-security-documentation-review",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/2-authentication-documentation",
+    "title": "2. Authentication documentation",
+    "level": 2,
+    "children": []
+  },
+  {
+    "sid": "/3-oauthoidc-security",
+    "title": "3. OAuth/OIDC security",
+    "level": 2,
+    "children": [
+      {
+        "sid": "/relevant-oauth-controls",
+        "title": "Relevant OAuth controls",
+        "level": 3,
+        "parent": "/3-oauthoidc-security",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/4-mfa-and-brute-force-protection",
+    "title": "4. MFA and brute-force protection",
+    "level": 2,
+    "children": []
+  },
+  {
+    "sid": "/5-security-advisories-reveal-important-historical-weaknesses",
+    "title": "5. Security advisories reveal important historical weaknesses",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/oauth-account-hijacking",
+        "title": "OAuth account hijacking",
+        "level": 3,
+        "parent": "/5-security-advisories-reveal-important-historical-weaknesses",
+        "children": []
+      },
+      {
+        "sid": "/6-oidc-tls-certificate-validation",
+        "title": "6. OIDC TLS certificate validation",
+        "level": 2,
+        "parent": "/5-security-advisories-reveal-important-historical-weaknesses",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/7-oauth-ssrf-vulnerability",
+    "title": "7. OAuth SSRF vulnerability",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/8-authorization-and-role-management",
+    "title": "8. Authorization and role management",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/9-session-and-logout-security",
+    "title": "9. Session and logout security",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/10-deployment-security-responsibility",
+    "title": "10. Deployment security responsibility",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/11-documentation-strengths-and-gaps",
+    "title": "11. Documentation strengths and gaps",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/1-recommended-production-tlsreverse-proxy-configuration",
+        "title": "1. recommended production TLS/reverse-proxy configuration;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/2-secure-session-and-cookie-expectations",
+        "title": "2. secure session and cookie expectations;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/3-oauth-account-linking-threat-considerations",
+        "title": "3. OAuth account-linking threat considerations;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/4-mandatory-or-strongly-recommended-mfa-at-the-idp",
+        "title": "4. mandatory or strongly recommended MFA at the IdP;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/5-brute-forcerate-limiting-expectations",
+        "title": "5. brute-force/rate-limiting expectations;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/6-idp-role-claim-hardening",
+        "title": "6. IdP role-claim hardening;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/7-private-network-isolation-requirements",
+        "title": "7. private-network isolation requirements;",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/8-upgrade-guidance-tied-to-important-security-advisories",
+        "title": "8. upgrade guidance tied to important security advisories.",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      },
+      {
+        "sid": "/conclusion",
+        "title": "Conclusion",
+        "level": 2,
+        "parent": "/11-documentation-strengths-and-gaps",
+        "children": []
+      }
+    ]
+  }
+]

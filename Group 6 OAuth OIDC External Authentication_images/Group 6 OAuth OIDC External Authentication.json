@@ -1,0 +1,163 @@
+[
+  {
+    "sid": "/1-initiate-external-login",
+    "title": "1. Initiate External Login",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/2-authenticate-with-oauthoidc",
+    "title": "2. Authenticate with OAuth/OIDC",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/3-external-identity-provider-authenticates-the-user",
+    "title": "3. External Identity Provider authenticates the user",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/4-handle-oauth-callback",
+    "title": "4. Handle OAuth Callback",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/5-validate-oidc-identity",
+    "title": "5. Validate OIDC Identity",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/6-createlink-user-account",
+    "title": "6. Create/Link User Account",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/7-establish-immich-session",
+    "title": "7. Establish Immich Session",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/1-original-use-case",
+        "title": "1. Original use case",
+        "level": 2,
+        "parent": "/7-establish-immich-session",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/2-relevant-misusers",
+    "title": "2. Relevant misusers",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/3-misuse-case-1--oauth-login-csrf--callback-manipulation",
+    "title": "3. Misuse Case 1 — OAuth Login CSRF / Callback Manipulation",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/misuse-case",
+        "title": "Misuse case",
+        "level": 3,
+        "parent": "/3-misuse-case-1--oauth-login-csrf--callback-manipulation",
+        "children": []
+      },
+      {
+        "sid": "/countermeasure",
+        "title": "Countermeasure",
+        "level": 3,
+        "parent": "/3-misuse-case-1--oauth-login-csrf--callback-manipulation",
+        "children": []
+      },
+      {
+        "sid": "/derived-security-requirement--sr-1",
+        "title": "Derived security requirement — SR-1",
+        "level": 3,
+        "parent": "/3-misuse-case-1--oauth-login-csrf--callback-manipulation",
+        "children": []
+      },
+      {
+        "sid": "/does-immich-support-it",
+        "title": "Does Immich support it?",
+        "level": 3,
+        "parent": "/3-misuse-case-1--oauth-login-csrf--callback-manipulation",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/4-misuse-case-2--authorization-code-interception",
+    "title": "4. Misuse Case 2 — Authorization Code Interception",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/misuse-case-1",
+        "title": "Misuse case",
+        "level": 3,
+        "parent": "/4-misuse-case-2--authorization-code-interception",
+        "children": []
+      },
+      {
+        "sid": "/countermeasure-1",
+        "title": "Countermeasure",
+        "level": 3,
+        "parent": "/4-misuse-case-2--authorization-code-interception",
+        "children": []
+      },
+      {
+        "sid": "/derived-security-requirement--sr-2",
+        "title": "Derived security requirement — SR-2",
+        "level": 3,
+        "parent": "/4-misuse-case-2--authorization-code-interception",
+        "children": []
+      },
+      {
+        "sid": "/does-immich-support-it-1",
+        "title": "Does Immich support it?",
+        "level": 3,
+        "parent": "/4-misuse-case-2--authorization-code-interception",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/5-misuse-case-3--forged-or-manipulated-oidc-identity",
+    "title": "5. Misuse Case 3 — Forged or Manipulated OIDC Identity",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/misuse-case-2",
+        "title": "Misuse case",
+        "level": 3,
+        "parent": "/5-misuse-case-3--forged-or-manipulated-oidc-identity",
+        "children": []
+      },
+      {
+        "sid": "/countermeasures",
+        "title": "Countermeasures",
+        "level": 3,
+        "parent": "/5-misuse-case-3--forged-or-manipulated-oidc-identity",
+        "children": []
+      },
+      {
+        "sid": "/derived-security-requirement--sr-3",
+        "title": "Derived security requirement — SR-3",
+        "level": 3,
+        "parent": "/5-misuse-case-3--forged-or-manipulated-oidc-identity",
+        "children": []
+      },
+      {
+        "sid": "/does-immich-support-it-2",
+        "title": "Does Immich support it?",
+        "level": 3,
+        "parent": "/5-misuse-case-3--forged-or-manipulated-oidc-identity",
+        "children": []
+      }
+    ]
+  }
+]
